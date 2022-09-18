@@ -10,8 +10,8 @@ from common.types import EntityType
 
 pygame.init()
 
-ASSET_DIR = Path("assets")
-DATA_DIR = Path("data")
+ASSET_DIR = Path("D:\Download\SteamForVietnam\cs102-ls12-zero/assets")
+DATA_DIR = Path("D:\Download\SteamForVietnam\cs102-ls12-zero\data")
 
 FONT_PATH = ASSET_DIR / "fonts" / "arial.ttf"
 
@@ -25,8 +25,10 @@ class Color:
     TEXT_DIALOGUE_SUBJECT = (19, 2, 150)
     TEXT_DIALOGUE = (204, 115, 14)
     TEXT_INVENTORY_CNT = (255, 255, 0)
-    TEXT_INTERNSHIP_REPORT = (242, 222, 179)
-    TEXT_CREDIT = (230, 147, 154)
+
+    # COT MOC 3: roll credits
+    # TEXT_INTERNSHIP_REPORT = (242, 222, 179)
+    # TEXT_CREDIT = (230, 147, 154)
 
 
 class GameConfig:
@@ -137,7 +139,7 @@ class ShadowBossConfig:
     ANIMATION_INTERVAL_MS: int = 200
     SPEED: int = 1
     DAMAGE: int = 1
-    INITIAL_HP: int = 100
+    INITIAL_HP: int = 300
 
     ANGRY_INTERVAL_MS: int = 7000
     ANGRY_DURATION_MS: int = 2000

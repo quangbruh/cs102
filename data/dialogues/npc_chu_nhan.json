@@ -1,42 +1,50 @@
 {
-  "name": "Chú Nhân",
+  "name": "Anh Khôi",
   "dialogues": [
     [
       {
-        "Subject": "Táy Máy",
+        "Subject": "Nhật Quang",
         "Line": "Anh ơi, anh có sao không?"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Anh đang có chút mệt mỏi."
+        "Subject": "Anh Khôi",
+        "Line": "Anh đang đói vì Không khí bị ô nhiễm nên không có đồ ăn."
       },
       {
-        "Subject": "Táy Máy",
-        "Line": "Em tặng anh chỗ kẹo này nhé."
+        "Subject": "Nhật Quang",
+        "Line": "Em có thể giúp anh được không?."
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Ồ, tốt quá, anh cảm thấy khoẻ hơn rồi, cảm ơn em!"
+        "Subject": "Anh Khôi",
+        "Line": "Ồ, tốt quá,cảm ơn em!"
       },
       {
-        "Subject": "Táy Máy",
+        "Subject": "Nhật Quang",
         "Line": "Sao trong văn phòng của mình có nhiều bóng đen vậy ạ?"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Vì thung lũng STEAM đang bị năng lượng tiêu cực bao phủ..."
+        "Subject": "Anh Khôi",
+        "Line": "Vì thung lũng STEAM ngày càng có nhiều nhà máy hơn bao phủ..."
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Năng lượng này kết thành những bóng đen khiến mọi người mệt mỏi."
+        "Subject": "Anh Khôi",
+        "Line": "Những nhà máy này thải ra khói khiến môi trường ô nhiễm."
       },
       {
-        "Subject": "Chú Nhân",
+        "Subject": "Anh Khôi",
+        "Line": "Những khói bụi này kết thành những bóng đen khắp thung lũng!"
+      },
+      {
+        "Subject": "Anh Khôi",
         "Line": "Đứng đầu là chúa tể bóng đen, đang đóng giữ gần đây."
       },
       {
-        "Subject": "Táy Máy",
-        "Line": "Em sẽ lan toả năng lương tích cực để xua tan bóng đen!"
+        "Subject": "Anh Khôi",
+        "Line": "Em có thể giúp anh tiêu diệt chúng được không!"
+      },
+      {
+        "Subject": "Nhật Quang",
+        "Line": "Em sẽ lan toả năng lượng sạch để xua tan khói bụi!"
       }
     ]
   ]

@@ -48,7 +48,8 @@ class EntityType(enum.Enum):
     PLAYER_INVENTORY = 106
     HP_HEART = 107
 
-    ENDING_BURGER = 108
+    # COT MOC 2: burger rain
+    # ENDING_BURGER = 108
 
 
 OBSTACLES_TYPES = (EntityType.GROUND_A, EntityType.GROUND_B)

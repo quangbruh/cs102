@@ -39,9 +39,12 @@ class Victory(BaseScene):
 
     def tick(self, events: Sequence[GameEvent]) -> bool:
         super().tick(events)
-        self.draw_background()
-        if self.draw_internship_report():
-            self.draw_credit()
+
+        # COT MOC 3: roll credits
+        # self.draw_background()
+        # if self.draw_internship_report():
+        #     self.draw_credit()
+
         self.handle_return_to_menu(events)
         return True
 

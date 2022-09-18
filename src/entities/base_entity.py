@@ -51,16 +51,8 @@ class BaseEntity:
         self.visible: bool = True
         self.flip_x: bool = False
 
-        if self.sprite_path:
-            if not self.sprite_path.exists():
-                raise FileNotFoundError(
-                    f"Expected file at {self.sprite_path} but NOT found."
-                    f" You may fix this by adding this file"
-                    f" OR update EntityFactory to handle creating {self.entity_type} differently."
-                )
-            self.image = util.scale_image(
-                pygame.image.load(self.sprite_path).convert_alpha(), self.scale
-            )
+        if self.sprite_path and self.sprite_path.exists():
+            self.image = util.scale_image(pygame.image.load(self.sprite_path), self.scale)
             self.rect: Rect = self.image.get_rect()
             self.rect.x, self.rect.y = x, y
 

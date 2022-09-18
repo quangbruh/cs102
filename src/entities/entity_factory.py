@@ -128,6 +128,7 @@ class EntityFactory:
                 speed=ShadowBossConfig.SPEED,
                 damage=ShadowBossConfig.DAMAGE,
             )
+
         elif entity_type in FRIENDLY_NPC_TYPES:
             config: NpcConfig = NpcConfig(entity_type=entity_type)
             return FriendlyNpc(
@@ -164,17 +165,18 @@ class EntityFactory:
                 sprite_path=ASSET_DIR / "items" / f"{entity_type.name.lower()}.png",
                 scale=(GameConfig.TILE_SIZE, GameConfig.TILE_SIZE),
             )
-        elif entity_type == EntityType.ENDING_BURGER:
-            return Bullet(
-                entity_type=entity_type,
-                ttl_ms=EndingBurgerConfig.TTL_MS,
-                x=x,
-                y=y,
-                sprite_path=EndingBurgerConfig.SPRITE_PATH,
-                scale=EndingBurgerConfig.SCALE,
-                gravity=EndingBurgerConfig.GRAVITY,
-                damage=0,
-            )
+        # COT MOC 2: burger rain
+        # elif entity_type == EntityType.ENDING_BURGER:
+        #     return Bullet(
+        #         entity_type=entity_type,
+        #         ttl_ms=EndingBurgerConfig.TTL_MS,
+        #         x=x,
+        #         y=y,
+        #         sprite_path=EndingBurgerConfig.SPRITE_PATH,
+        #         scale=EndingBurgerConfig.SCALE,
+        #         gravity=EndingBurgerConfig.GRAVITY,
+        #         damage=0,
+        #     )
         else:
             return BaseEntity(
                 entity_type=entity_type,
