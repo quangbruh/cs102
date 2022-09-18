@@ -1,16 +1,8 @@
-# STEAM for Vietnam - CS 102 
+# STEAM for Vietnam - CS 102 - Final Project
+[DEMO PROJECT - Youtube](https://youtu.be/RV1dyz6sDG0)  
+So với dự án mẫu:
+- Em đã thay đổi các hình nền và các item mà người chơi có thể pick được và các sound effect sao cho nghe hay hơn và phù hợp với ngữ cảnh.
+- Em đã thay đổi cốt truyện game thành một thung lũng ô nhiễm và chúng ta phải tiêu diệt những bóng ma do khí bụi kết thành và cuối cùng là phải đánh bại trùm cuối chúa tể bóng đêm Shadow Boss và chiến thắng.  
 
-Xem ghi chú tóm tắt các bài học: [LINK](https://github.com/STEAMforVietnam/cs102/tree/lesson-notes/notes)
-
-## Đường dẫn đến phiên bản cuối mỗi bài học
-
-1. [Crazy Robot](https://github.com/STEAMforVietnam/cs102/tree/ls1/)
-2. [Crazy Robot](https://github.com/STEAMforVietnam/cs102/tree/ls2-5)
-3. Bài học ôn tập Python căn bản
-4. [Thách thức giới hạn](https://github.com/STEAMforVietnam/cs102/tree/ls4-5)
-5. Bài đặc biệt về thiết kế trò chơi và công cụ Figma
-6. [Bí Ẩn STEAM Valley](https://github.com/STEAMforVietnam/cs102/tree/ls6-final)
-7. [Lần theo dấu vết](https://github.com/STEAMforVietnam/cs102/tree/ls7-final)
-8. Bài đặc biệt về thiết kế trò chơi và công cụ Figma
-9. [Tìm kiếm sức mạnh](https://github.com/STEAMforVietnam/cs102/tree/ls9-five)
-10. [Vượt qua đối thủ đáng gờm](https://github.com/STEAMforVietnam/cs102/tree/ls10-four)
+Các hình ảnh trong game được em lấy từ Google Image và hiệu ứng âm thanh từ Youtube.  
+Em xin chân thành cảm ơn các thầy cô đã đồng hành cùng em trong khóa học CS 102!
